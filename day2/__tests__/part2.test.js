@@ -15,5 +15,5 @@ Given the same example list from above:
 2-9 c: ccccccccc is invalid: both position 2 and position 9 contain c.
 How many passwords are valid according to the new interpretation of the policies?`, () => {
   const input = getInput('../day2/input');
- expect(validPasswords(input, tobogganValidation)).toMatchInlineSnapshot(`497`);
+ expect(validPasswords(input, tobogganValidation)).toEqual(497);
 });

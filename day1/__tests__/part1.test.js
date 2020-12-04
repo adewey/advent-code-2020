@@ -3,5 +3,5 @@ import expenseReportChecker from '..';
 
 test(`--- Part One ---`, () => {
   const input = getInput('../day1/input');
-  expect(expenseReportChecker(input, 2)).toMatchInlineSnapshot(`121396`);
+  expect(expenseReportChecker(input, 2)).toEqual(121396);
 });

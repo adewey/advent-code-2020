@@ -1,7 +1,6 @@
 import expenseReportChecker from "..";
 
-test(`
---- Day 1: Report Repair ---
+test(`--- Day 1: Report Repair ---
 After saving Christmas five years in a row, you've decided to take a vacation at a nice resort on a tropical island. Surely, Christmas will go on without you.
 
 The tropical island has its own currency and is entirely cash-only. The gold coins used there have a little picture of a starfish; the locals just call them stars.
@@ -30,5 +29,5 @@ In this list, the two entries that sum to 2020 are 1721 and 299. Multiplying the
 Of course, your expense report is much larger. Find the two entries that sum to 2020; what do you get if you multiply them together?
 `, () => {
     const input = [1721, 979, 366, 299, 675, 145];
-    expect(expenseReportChecker(input)).toMatchInlineSnapshot(`514579`);
+    expect(expenseReportChecker(input)).toEqual(514579);
 });

@@ -1,7 +1,6 @@
 import validPasswords from "..";
 
-test(`
---- Day 2: Password Philosophy ---
+test(`--- Day 2: Password Philosophy ---
 Your flight departs in a few days from the coastal airport; the easiest way down to the coast from here is via toboggan.
 
 The shopkeeper at the North Pole Toboggan Rental Shop is having a bad day. "Something's wrong with our computers; we can't log in!" You ask if you can take a look.
@@ -26,5 +25,5 @@ How many passwords are valid according to their policies?
         "1-3 b: cdefg",
         "2-9 c: ccccccccc",
     ];
-    expect(validPasswords(input)).toMatchInlineSnapshot(`2`);
+    expect(validPasswords(input)).toEqual(2);
 });
